@@ -1,0 +1,49 @@
+<!--Types of selecter:
+    Type, Attribute ,id ,universal, pseudo, combination selector -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        h1{
+            color:green
+        }
+        a[href="google.com"]{
+            background-color: black;
+        }
+        #h2 ,h3{
+            font-size: 19px;
+            background-color: blanchedalmond;
+        }
+        .c1{
+            font-size: 19px;
+            background-color: blue;
+        }
+        *{
+            background-color: yellow;
+        }
+        #h1:hover{
+            color:red;
+        }
+        p h2{
+            background-color: blue;
+        }
+    </style>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1>We learn to front end class</h1>
+    <h2 id="h2">In this couse we will learn javascript and css</h2>
+    <h3 id="h3">In this couse we will learn javascript and css</h3>
+    <h4 class="c1">In this couse we will learn javascript and css</h4>
+    <h5 class="c1">In this couse we will learn javascript and css</h5>
+    <a href="google.com">Google</a>
+    <br>
+    <p ><h2>This is new paragraph</h2></p>
+    <p class="p1">This is new paragraph</p>
+</body>
+</html>
